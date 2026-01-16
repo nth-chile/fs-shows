@@ -5,18 +5,21 @@
   },
   "author": "Jared Salzano",
   "license": "MIT",
-  "main": ".",
+  "main": "dist/Player.js",
+  "files": [
+    "dist"
+  ],
   "name": "fs-shows",
   "version": "2.2.0",
   "volta": {
-    "node": "18.16.1"
+    "node": "24.11.1"
   },
   "devDependencies": {
     "@types/howler": "^2.2.7",
     "@types/node": "^20.3.2",
-    "@types/react": "^18.2.14",
     "@types/qs": "^6.9.7",
-    "@types/react-dom": "^18.2.6",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.1",
     "eslint": "^8.43.0",
@@ -25,12 +28,12 @@
     "postcss-load-config": "^4.0.1",
     "postcss-nested": "^6.0.1",
     "stylelint-config-standard": "^33.0.0",
-    "typescript": "^5.1.5"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "howler": "^2.2.3",
     "qs": "^6.11.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   }
 }
